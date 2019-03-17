@@ -18,6 +18,21 @@
     line-height: 1.4;
 }
 
+  p, a {
+    text-decoration: underline;
+    -webkit-text-decoration-color: lightgrey;
+    text-decoration-color: lightgrey; 
+   }
+
+  a:hover { 
+    -webkit-text-decoration-color: #28B1E1;
+    text-decoration-color: #28B1E1; 
+  }
+
+  a:active {
+    -webkit-text-decoration-color: #006E94;
+    text-decoration-color: #006E94; 
+  }
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
